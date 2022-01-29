@@ -1,11 +1,87 @@
 <html>
     <head>
         <title>
-            Tables & Pseudo-CSS selectors
+            Lab 02 Part C
         </title>
+        <style>
+            table, td, th{
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                border-collapse: collapse;
+            }
+
+            #header{
+                border-width: 5px;
+                border-color: black;
+                border-style: solid;
+                color: white;
+                background-color: green;
+            }
+
+            .data_header{
+                border-width: 2px;
+                border-color: black;
+                border-style: solid;
+                background-color: lightcoral;
+            }
+
+            .coral_font{
+                color: lightcoral;
+            }
+        </style>
     </head>
 
     <body>
-        
+        <h1>Lab 02 Part B</h1>
+        <hr>
+        <h2 id="header">Vancouver vs. Toronto Population Growth</h2>
+        <table>
+            <tr>
+                <td>
+                    <h3 class="data_header">
+                        Vancouver Population Growth
+                    </h3>
+                    <table>
+                        <tr> <th> Year </th> <th> Population </th> <th> +-% </th> </tr>
+                        <tr class="coral_font"> <td> 1891 </td> <td> 21,887 </td> <td> -- </td> </tr>
+                        <tr class="coral_font"> <td> 1901 </td> <td> 42,926 </td> <td> +96.1% </td> </tr>
+                        <tr class="coral_font"> <td> 1911 </td> <td> 164,926 </td> <td> +282.1% </td> </tr>
+                        <tr class="coral_font"> <td> 1921 </td> <td> 232,597 </td> <td> +41.8% </td> </tr>
+                        <tr class="coral_font"> <td> 1931 </td> <td> 347,709 </td> <td> +49.5% </td> </tr>
+                    </table>
+                    <br>
+                    Source:
+                    <a href="https://en.wikipedia.org/wiki/Demographics_of_Metro_Vancouver#Population_growth" target="_blank">
+                        Wikipedia
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3 class="data_header">
+                        Toronto Population Growth
+                    </h3>
+                    <table>
+                        <tr> <th> Year </th> <th> Population </th> <th> +-% </th> </tr>
+                        <tr class="coral_font"> <td> 1834 </td> <td> 9,252 </td> <td> -- </td> </tr>
+                        <tr class="coral_font"> <td> 1901 </td> <td> 238,080 </td> <td> +2473.3% </td> </tr>
+                        <tr class="coral_font"> <td> 1911 </td> <td> 381,383 </td> <td> +60.2% </td> </tr>
+                        <tr class="coral_font"> <td> 1921 </td> <td> 521,893 </td> <td> +36.8% </td> </tr>
+                        <tr class="coral_font"> <td> 1931 </td> <td> 856,955 </td> <td> +64.2% </td> </tr>
+                    </table>
+                    <br>
+                    Source:
+                    <a href="https://en.wikipedia.org/wiki/Demographics_of_Toronto#Population" target="_blank">
+                        Wikipedia
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <a href="./lab02.html">
+            Go Back to Lab02 Homepage
+        </a>
     </body>
 </html>
