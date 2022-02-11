@@ -1,147 +1,156 @@
 <html>
-    <head>
-        <title>
-            
-        </title>
-        <style>
-            
-            *{
-                box-sizing: border-box;
-            }
 
-            #body{
-                background-color: #f1f1f1;
-                padding: 10px;
-                font-family: Arial;
-            }
-            #header{
-                text-align: center;
-            }
+<head>
+    <title>
+        Lab04
+    </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-            #top_nav{
-                background-color: #333;
-                overflow: hidden;
-            }
+        body {
+            background-color: #f1f1f1;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif
+        }
 
-            #top_nav a{
-                color: #f2f2f2;
-                padding: 14px 16px 14px 16px;
-                display: block;
-                text-decoration: none;
-                float: left;
-            }
+        #header {
+            text-align: center;
+        }
 
-            #left_col{
-                width: 75%;
-                float: left;
-            }
+        #top_nav {
+            background-color: #333;
+            overflow: hidden;
+        }
 
-            #right_col{
-                width: 25%;
-                float: right;
-                padding-left: 10px;
-            }
+        #top_nav a {
+            color: #f2f2f2;
+            padding: 14px 16px;
+            display: block;
+            text-decoration: none;
+            float: left;
+        }
 
-            #footer{
-                clear: both;
-                text-align: center;
-            }
+        #left_col {
+            clear: both;
+            width: 75%;
+            float: left;
+        }
 
-            .card{
-                background-color: #a2b9bc;
-                padding: 20px;
-                margin-top: 20px;
-            }
+        #right_col {
+            width: 25%;
+            float: right;
+            padding-left: 10px;
+        }
 
-            @media screen and (max-width: 600px) {
-                #left_col, #right_col{
-                    width: 100%;
-                    padding-left: 0px;
-                }
-            }
-            
-        </style>
-    </head>
+        #footer {
+            clear: both;
+            text-align: center;
+        }
 
-    <body id="body">
-        <div id="header">
-            <h1>
-                My Lab04 Website
-            </h1>
+        .card {
+            background-color: #a2b9bc;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            #left_col, #right_col {
+                width: 100%;
+                padding-left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>
+            My Lab04 Website
+        </h1>
+
+        <p>
+            Should be responsive
+        </p>
+    </div>
+
+    <div id="top_nav">
+        <a href="#">
+            Link
+        </a>
+
+        <a href="#">
+            Link
+        </a>
+
+        <a href="#">
+            Link
+        </a>
+
+        <a href="#" style="float: right;">
+            Link
+        </a>
+    </div>
+
+    <div id="left_col">
+        <div class="card">
+            <h2>
+                Title Heading
+            </h2>
+
+            <h5>
+                Title Description
+            </h5>
 
             <p>
-                Should be responsive
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illum numquam in, aut cumque ipsum
+                obcaecati officia deleniti eum omnis atque soluta amet laborum necessitatibus, reprehenderit laudantium
+                quasi assumenda? Unde.
             </p>
         </div>
 
-        <div id="top_nav">
-            <a href="#">
-                Link
-            </a>
-
-            <a href="#">
-                Link
-            </a>
-
-            <a href="#">
-                Link
-            </a>
-
-            <a href="#" style="float: right;">
-                Link
-            </a>
-        </div>
-
-        <div id="left_col">
-            <div class="card">
-                <h2>
-                    Title Heading
-                </h2>
-
-                <h5>
-                    Title Description
-                </h5>
-
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illum numquam in, aut cumque ipsum obcaecati officia deleniti eum omnis atque soluta amet laborum necessitatibus, reprehenderit laudantium quasi assumenda? Unde.
-                </p>
-            </div>
-
-            <div class="card">
-                <h2>
-                    Title Heading
-                </h2>
-
-                <h5>
-                    Title Description
-                </h5>
-
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illum numquam in, aut cumque ipsum obcaecati officia deleniti eum omnis atque soluta amet laborum necessitatibus, reprehenderit laudantium quasi assumenda? Unde.
-                </p>
-            </div>
-        </div>
-
-        <div id="right_col">
-            <div class="card">
-                <h2>
-                    Title Heading
-                </h2>
-
-                <h5>
-                    Title Description
-                </h5>
-
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illum numquam in, aut cumque ipsum obcaecati officia deleniti eum omnis atque soluta amet laborum necessitatibus, reprehenderit laudantium quasi assumenda? Unde.
-                </p>
-            </div>
-        </div>
-
-        <div id="footer">
+        <div class="card">
             <h2>
-                Footer
+                Title Heading
             </h2>
+
+            <h5>
+                Title Description
+            </h5>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illum numquam in, aut cumque ipsum
+                obcaecati officia deleniti eum omnis atque soluta amet laborum necessitatibus, reprehenderit laudantium
+                quasi assumenda? Unde.
+            </p>
         </div>
-    </body>
+    </div>
+
+    <div id="right_col">
+        <div class="card">
+            <h2>
+                Title Heading
+            </h2>
+
+            <h5>
+                Title Description
+            </h5>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illum numquam in, aut cumque ipsum
+                obcaecati officia deleniti eum omnis atque soluta amet laborum necessitatibus, reprehenderit laudantium
+                quasi assumenda? Unde.
+            </p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h2>
+            Footer
+        </h2>
+    </div>
+</body>
+
 </html>
