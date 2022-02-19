@@ -1,0 +1,183 @@
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            overflow: hidden;
+        }
+
+        header::after {
+            clear: both;
+        }
+
+        main {}
+
+        footer {
+            background-color: #c7423f;
+            /* padding: 20px 35% 20px 35%; */
+            height: 70px;
+        }
+
+        footer a {
+            background-color: white;
+            color: #c7423f;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            float: left;
+        }
+
+        #center {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        .a_container {
+            float: left;
+        }
+
+        nav {
+            width: 33.3%;
+            background-color: white;
+            float: left
+        }
+
+        nav a {
+            display: block;
+            text-decoration: none;
+            padding: 20px 30px 20px 30px;
+            float: left;
+            color: black;
+            border-top: 1px;
+        }
+
+        nav a:hover {
+            background-color: lightgray;
+        }
+
+        blockquote {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        #header1 {
+            width: 33.3%;
+            float: left;
+            text-align: center;
+        }
+
+        #center_header {
+            text-align: center;
+        }
+
+        #bottom_parag {
+            text-align: center;
+            margin: 10px 15% 10px 15%;
+
+        }
+
+        .col_div {
+            float: left;
+            width: 33.3%;
+        }
+
+        .col_div:after {
+            clear: both;
+        }
+
+        h1 {
+            color: #c7423f;
+        }
+
+        @media screen and (max-width: 550px) {
+            nav {
+                display: none;
+                width: 0%;
+                 !important
+            }
+
+            #header1 {
+                width: 90%;
+            }
+
+            .col_div {
+                width: 90%;
+            }
+
+            .a_container {
+                width: 90%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Math</a>
+            <a href="#">Art</a>
+            <a href="#">Astronomy</a>
+        </nav>
+
+        <div id="header1">
+            <h1>LEONARDO DA VINCI</h1>
+        </div>
+
+        <nav>
+            <a href="#" style="float: right;">Wiki</a>
+            <a href="#" style="float: right;">Inventions</a>
+            <a href="#" style="float: right;">Anatomy</a>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <blockquote>"Learning never exhausts the mind."</blockquote>
+        <h3 id="center_header">- LEONARDO DA VINCI</h3>
+        <div class="col_div">
+            <img src="./image1.png" alt="">
+        </div>
+        <div class="col_div">
+            <blockquote>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, architecto. Porro magni exercitationem
+                placeat,
+                maxime laboriosam beatae praesentium nulla perspiciatis laudantium illo, doloremque deleniti libero
+                quaerat
+                quae reiciendis! Omnis eum officiis saepe porro corporis dolorum debitis incidunt! Tempora ad molestias
+                ipsum velit veniam architecto repellendus molestiae consequatur iste minima dolor et corporis excepturi
+                explicabo impedit, ratione temporibus aperiam? Unde nihil modi perferendis, ex obcaecati ipsum velit
+                alias
+                doloribus, autem vitae nobis! Voluptatum, molestiae dolor tempora, eaque itaque modi omnis, amet in aut
+                id
+                nemo. Eius tempore exercitationem tempora ad soluta a est sequi omnis sunt consequuntur ipsum, unde
+                animi
+                consequatur?
+            </blockquote>
+        </div>
+        <div class="col_div">
+            <img src="./image2.jpeg" alt="">
+        </div>
+        <p id="bottom_parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto dolores repellat, hic
+            doloremque asperiores quasi omnis voluptatibus enim neque amet animi, at reprehenderit quo magni voluptate
+            voluptatem optio dolorum ipsa esse numquam aspernatur rem ea commodi! Praesentium incidunt facere molestias
+            nulla asperiores ullam id, ipsam dolorem, porro enim saepe odio.</p>
+    </main>
+
+    <footer>
+        <div id="center">
+            <div class="a_container">
+                <a href="#">READ MORE ON WIKI</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
