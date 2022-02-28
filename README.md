@@ -1,3 +1,3 @@
-# COMP1537-Lab
-COMP1537 Lab works.
-Landing Page: https://confident-bose-09963a.netlify.app/
+# COMP1537
+COMP1537 works.
+Landing Page: https://andy-lau-comp1537.netlify.app/
