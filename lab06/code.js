@@ -19,18 +19,18 @@ function subtraction() {
 function multiplication() {
     first_operand = parseInt(jQuery("#first_operand").val())
     second_operand = parseInt(jQuery("#second_operand").val())
-    jQuery("#result").html("Result: " + first_operand + " * " + second_operand + " = " + (first_operand * second_operand))
+    jQuery("#result").html("Result: " + first_operand + " × " + second_operand + " = " + (first_operand * second_operand))
     old_result = jQuery("#history").html()
-    new_result = "<br><span class='yellow'>" + first_operand + " * " + second_operand + " = " + (first_operand * second_operand) + "</span>"
+    new_result = "<br><span class='yellow'>" + first_operand + " × " + second_operand + " = " + (first_operand * second_operand) + "</span>"
     jQuery("#history").html(old_result + new_result)
 }
 
 function division() {
     first_operand = parseInt(jQuery("#first_operand").val())
     second_operand = parseInt(jQuery("#second_operand").val())
-    jQuery("#result").html("Result: " + first_operand + " / " + second_operand + " = " + (first_operand / second_operand))
+    jQuery("#result").html("Result: " + first_operand + " ÷ " + second_operand + " = " + (first_operand / second_operand))
     old_result = jQuery("#history").html()
-    new_result = "<br><span class='blue'>" + first_operand + " / " + second_operand + " = " + (first_operand / second_operand) + "</span>"
+    new_result = "<br><span class='blue'>" + first_operand + " ÷ " + second_operand + " = " + (first_operand / second_operand) + "</span>"
     jQuery("#history").html(old_result + new_result)
 }
 
