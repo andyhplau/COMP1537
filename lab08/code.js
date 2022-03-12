@@ -3,7 +3,7 @@ function get_data(data) {
     for (let i = 0; i < data.results.length; i++) {
         title = data.results[i].original_title
         overview = data.results[i].overview
-        poster = `<img id="poster" src="http://image.tmdb.org/t/p/w500/${data.results[i].poster_path}">`
+        poster = `<img id="poster" src="http://image.tmdb.org/t/p/w500${data.results[i].poster_path}">`
         backdrop = data.results[i].backdrop_path
 
         $("#result").append(`<li>
@@ -29,7 +29,7 @@ function get_search_result() {
 
 function display_backdrop() {
     backdrop_id = $(this).attr("id")
-    $("#backdrop_div").html(`<img src="http://image.tmdb.org/t/p/w500/${backdrop_id}">`)
+    $("#backdrop_div").html(`<img src="http://image.tmdb.org/t/p/w500${backdrop_id}">`)
 }
 
 function setup() {
