@@ -80,7 +80,7 @@ function get_search_result() {
 
 function display_backdrop() {
     backdrop_id = $(this).attr("id")
-    $("#backdrop_div").html(`<img src="http://image.tmdb.org/t/p/w500${backdrop_id}">`)
+    $("#backdrop_div").html(`<img src="http://image.tmdb.org/t/p/original${backdrop_id}" style="width: 100%">`)
 }
 
 // update page_size and re-display the result from page 1 using the new value
