@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 02</title>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="code.js"></script>
+
+    <!-- style -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #go_back {
+            clear: both;
+        }
+
+        #result {
+            float: left;
+            width: 50%;
+        }
+
+        #backdrop_div {
+            float: left;
+            width: 50%;
+        }
+
+        #poster {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            Page size:
+            <select name="page_size" id="page_size">
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+            </select>
+            <br>
+            Search TMDB by by title:
+            <input type="text" id="movie_title" value="">
+            <button id="search">Search</button>
+        </div>
+
+        <header>
+
+        </header>
+
+        <ol id="result"></ol>
+
+        <div id="backdrop_div"></div>
+    </main>
+
+    <hr id="go_back">
+    <a href="../index.html">Go Back to Index page</a>
+</body>
+
+</html>
